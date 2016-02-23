@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Kamil Bogdański">
+    <meta name="keywords" content="portfolio">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Portfolio Kamil Bogdański</title>
+</head>
+<body>
+<div class="outside_container">
+    <div class="container">
+        <!-- GŁÓWNY OBSZAR -->
+        <!-- LOGO I MENU -->
+        <img src="img/logo.jpg" id="logo">
+
+        <ul class="menu">
+            <li><a href="index.html">O mnie</a> </li>
+            <li><a href="portfolio.html">Portfolio</a> </li>
+            <li><a href="cv.html">CV</a> </li>
+            <li><a href="kontakt.html">Kontakt</a> </li>
+        </ul>
+
+        <ul class="right_menu">
+            <li><a href="https://www.facebook.com/kamil.bogdanski.1"><img src="img/facebook.jpg"> </a> </li>
+        </ul>
+
+        <!-- PANEL -->
+        <img src="img/panel_cv.jpg" id="panel">
+
+        <div class="content">
+            <!-- ZAWARTOŚĆ STRONY -->
+            <div class="kolumna2">
+                <a href="#" onclick="showdane('dane','doswiadczenie','wyksztalcenie','umiejetnosci','kursy','dodatkowe')"><h2 class="cv">Dane osobowe</h2></a>
+                <a href="#" onclick="showdos('dane','doswiadczenie','wyksztalcenie','umiejetnosci','kursy','dodatkowe')"><h2>Doświadczenie</h2></a>
+                <a href="#" onclick="showwyk('dane','doswiadczenie','wyksztalcenie','umiejetnosci','kursy','dodatkowe')"><h2>Wykształcenie</h2></a>
+                <a href="#" onclick="showumi('dane','doswiadczenie','wyksztalcenie','umiejetnosci','kursy','dodatkowe')"><h2>Umiejętności</h2></a>
+                <a href="#" onclick="showkur('dane','doswiadczenie','wyksztalcenie','umiejetnosci','kursy','dodatkowe')"><h2>Kursy i szkolenia</h2></a>
+                <a href="#" onclick="showdod('dane','doswiadczenie','wyksztalcenie','umiejetnosci','kursy','dodatkowe')"><h2>Dodatkowe informacje</h2></a>
+                <a href="download/CV_K_Bogdanski.pdf"><h2>Pobierz CV</h2></a>
+            </div>
+            <div class="kolumna1">
+                <div id="dane" style="display: block">
+                    <table>
+                        <tr>
+                            <th rowspan="5"><img src="img/ja_cv.jpg"></th>
+                            <th scope="row" align="left">Imię i nazwisko:</th>
+                            <td>Kamil Bogdański</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" align="left">Data urodzin:</th>
+                            <td>02 grudnia 1983</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" align="left">Numer telefonu:</th>
+                            <td>604 242 981</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" align="left">E-mail:</th>
+                            <td>kamil004@op.pl</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" align="left">Stan cywilny:</th>
+                            <td>kawaler</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="doswiadczenie" style="display: none">
+                    <h4>07.2013 – obecnie</h4>
+                    Kierownik zespołu – PZU S.A / PZU Życie - Warszawa
+                        <ul>
+                            <li>Kierowanie 4-osobowym zespołem Specjalistów</li>
+                            <li>Odpowiedzialność za usługę I linii Service Desk świadczonej na zasadach outsourcing’u oraz proces IM obejmujący swym zakresem kilka spółek ( ITIL v3)</li>
+                        </ul>
+                    <h4>01.2012 – 07.2013</h4>
+                    Analityk Service Desk – PZU S.A / PZU Życie - Warszawa
+                    <ul>
+                        <li>Monitoring poziomu świadczonej usługi SD, odpowiedzialność za przygotowanie SD na wdrażane zmiany</li>
+                        <li>Rozliczanie umowy z dostawcą usługi Service Desk</li>
+                        <li>Raportowanie</li>
+                        <li>Współuczestnictwo w pracach projektowych</li>
+                        <li>Opiniowanie dokumentacji analitycznej</li>
+                    </ul>
+                    <h4>12.2009 – 01.2012</h4>
+                    Specjalista Service Desk – PZU S.A / PZU Życie – Warszawa
+                    <ul>
+                        <li>Uczestnictwo w procesie obsługi zgłoszeń</li>
+                        <li>Realizacja wniosków o dostęp do systemów informatycznych</li>
+                        <li>Odpowiedzialność za stworzenie i utrzymanie bazy wiedzy Service Desk’u</li>
+                    </ul>
+                    <h4>06.2006 – 12.2009</h4>
+                    Konsultant Help Desk – PZU S.A – Warszawa
+                    <ul>
+                        <li>Uczestnictwo w procesie obsługi zgłoszeń</li>
+                        <li>Realizacja zgłoszeń będących w kompetencji pierwszej linii wsparcia</li>
+                    </ul>
+                    <h4>11.2003 – 07.2004</h4>
+                    Magazynier – ZGKiM – Małkinia
+                    <ul>
+                        <li>Prowadzenie dokumentacji magazynu</li>
+                        <li>Przyjmowanie, wydawanie towaru</li>
+                        <li>Odpowiedzialność materialna za stan magazynu</li>
+                    </ul>
+                </div>
+                <div id="wyksztalcenie" style="display: none">
+                    <h4>10.2009 – 06.2011</h4>
+                    PJWSTK w Warszawie
+                    <ul>
+                        <li>Studia zaoczne magisterskie uzupełniające: Informatyka – Bazy Danych. Praca magisterska obroniona na ocenę „bardzo dobrą”</li>
+                    </ul>
+                    <h4>10.2007 – 06.2009</h4>
+                    PJWSTK w Warszawie
+                    <ul>
+                        <li>Studia zaoczne inżynierskie: Informatyka – Bazy Danych. Praca inżynierska obroniona na ocenę “dobrą”</li>
+                    </ul>
+                    <h4>10.2003 – 06.2007</h4>
+                    Politechnika Białostocka
+                    <ul>
+                        <li>Studia zaoczne inżynierskie: Informatyka – Inżynieria Oprogramowania. Praca inżynierska obroniona na ocenę „bardzo dobrą”</li>
+                    </ul>
+                    <h4>09.1998 – 06.2003</h4>
+                    Technikum Elektroniczne w ZS nr. 1 w Ostrowi Mazowieckiej
+                    <ul>
+                        <li>Dyplom technika elektronika w specjalizacji ‘systemy i sieci komputerowe’. Praca dyplomowa obroniona na ocenę ‘celującą’</li>
+                    </ul>
+                </div>
+                <div id="umiejetnosci" style="display: none">
+                    <h4>Znajomość:</h4>
+                    <ul>
+                        <li>Języki programowania: Pascal, C/C++, PHP, JAVA</li>
+                        <li>Bazy Danych: MySQL, SQL Server 2005/2008</li>
+                        <li>Środowiska: MS Visual Studio, Eclipse, DEVC++, NetBeans</li>
+                        <li>Systemy operacyjne: Windows XP/Vista/7, Windows Server 2003/2008</li>
+                        <li>Oprogramowanie biurowe: MS Office 2003/2007/2010</li>
+                        <li>Microsoft Visio 2003/2007</li>
+                        <li>HTML, CSS, JS, SQL</li>
+                    </ul>
+                    <h4>Języki obce</h4>
+                    <ul>
+                        <li>Język angielski - podstawowy</li>
+                    </ul>
+                    <h4>Inne:</h4>
+                    <ul>
+                        <li>Prawo jazdy kategorii B (od 2002)</li>
+                    </ul>
+                </div>
+                <div id="kursy" style="display: none">
+                    <h4>Egzaminy:</h4>
+                    <ul>
+                        <li>ITIL V3 Fundation (12.2009)</li>
+                    </ul>
+                    <h4>Certyfikaty</h4>
+                    <ul>
+                        <li>Wyzwania zarządzania z pracownika w kierownika – moduł II (11.2013)</li>
+                        <li>Wyzwania zarządzania z pracownika w kierownika – moduł I (10.2013)</li>
+                        <li>CTPartners Budowa katalogu usług (08.2012)</li>
+                        <li>HDI Specjalista Centrum Wsparcia (09.2011)</li>
+                        <li>Kurs Programista WWW – PHP(#!/ALX 04 – 06.2011)</li>
+                        <li>Configuring, Managing and Maintaining Windows Server 2008 Servers - MS 6419 (06.2010)</li>
+                        <li>Zarządzanie infrastrukturą IT zgodnym z ITIL V3 Fundation (04.2009)</li>
+                        <li>Udział w grze symulacyjnej PoleStar ITSM - ITIL v3 (02.2009)</li>
+                        <li>Udział w grze symulacyjnej Apollo 13 - ITIL v2 (12.2008)</li>
+                        <li>Planning, Implementing, and Maintaining a Microsoft Windows Server 2003 Active Directory Infrastructure - MS 2279 (07.2008)</li>
+                        <li>Managing and Maintaining a Microsoft Windows Server 2003 Environment - MS 2273 (07.2008)</li>
+                        <li>Installing and Configuring the Windows Vista Operating System and Maintaining and Troubleshooting Windows Vista Computers - MS 5115 + MS 5118 (02.2008)</li>
+                        <li>Zarządzanie infrastrukturą IT zgodnym z ITIL V2 Foundation (06.2007)</li>
+                        <li>Planning and Administering Windows Server 2008 Servers - MS 6430</li>
+                        <li>Installing and Configuring Windows 7 Client - MS 6292</li>
+                    </ul>
+                </div>
+                <div id="dodatkowe" style="display: none">
+                    <h4>Osiągnięcia:</h4>
+                    <ul>
+                        <li>Udział w projekcie centralizacji Service Desk’u. SD wspiera użytkowników w kilkudziesięciu systemach informatycznych.</li>
+                        <li>Udział we wdrożeniu w korporacji zarządzania infrastrukturą IT według ITIL-a. Jeden Service Desk dla całej korporacji wspierający użytkowników we wszystkich obszarach.</li>
+                        <li>Finalista Lidera Wsparcia 2011</li>
+                    </ul>
+                    <h4>Cechy charakteru:</h4>
+                    <ul>
+                        <li>Uczciwy, punktualny, solidny, dokładny</li>
+                        <li>Szybko przyswaja wiedzę</li>
+                    </ul>
+                    <h4>Zainteresowania:</h4>
+                    <ul>
+                        <li>Piłka nożna, muzyka, programowanie, gry RPG</li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</div>
+<div class="stopka">
+    <img src="img/stopka_logo.jpg">
+    <span>
+        Szablon strony z PSDTUTS i NETTUTS - szkolenia od Collis
+        Zobacz <a href="http://psdtuts.com">Photoshop Tutorial</a>
+        Zobacz <a href="http://nettuts.com">Web Tutorial</a>
+    </span>
+</div>
+</body>
+</html>

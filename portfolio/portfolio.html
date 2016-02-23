@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio Kamil Bogdański">
+    <meta name="keywords" content="portfolio">
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>Portfolio Kamil Bogdański</title>
+</head>
+<body>
+<div class="outside_container">
+    <div class="container">
+        <!-- GŁÓWNY OBSZAR -->
+        <!-- LOGO I MENU -->
+        <img src="img/logo.jpg" id="logo">
+
+        <ul class="menu">
+            <li><a href="index.html">O mnie</a> </li>
+            <li><a href="portfolio.html">Portfolio</a> </li>
+            <li><a href="cv.html">CV</a> </li>
+            <li><a href="kontakt.html">Kontakt</a> </li>
+        </ul>
+
+        <ul class="right_menu">
+            <li><a href="https://www.facebook.com/kamil.bogdanski.1"><img src="img/facebook.jpg"> </a> </li>
+        </ul>
+
+        <!-- PANEL -->
+        <img src="img/panel_portfolio.jpg" id="panel">
+
+        <div class="content">
+            <!-- ZAWARTOŚĆ STRONY -->
+            <div class="kolumna2">
+                <h2>Kategorie</h2>
+                <ul class="aktualnie">
+                    <li><a href="#" onclick="showkolumna_web('web', 'c')"><h4>Web developer</h4></a></li>
+                    <li><a href="#" onclick="showkolumna_c('web', 'c')"><h4>C++</h4></a></li>
+                </ul>
+            </div>
+            <div class="kolumna1">
+                <div id="web" style="display: block">
+                    <h2>Moje projekty</h2>
+                    <ul class="aktualnie">
+                        <li>
+                            <a href="#">
+                                <img src="img/brak.jpg" >
+                                <h4>Projekt nr. 1</h4>
+                                Użyte technologie: HTLM5, CSS3, JS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/brak.jpg" >
+                                <h4>Projekt nr. 2</h4>
+                                Użyte technologie: PHP, HTML5, CSS3, JS
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/brak.jpg" >
+                                <h4>Projekt nr. 3</h4>
+                                Użyte technologie: PHP, MySQL, HTML5, CSS3, JS
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="c" style="display: none">
+                    <h2>Wybrane algorytmy</h2>
+                    <ul>
+                        <li>Algorytm do zadania SPOJ - <a href="download/Pesel.cpp">JPESEL</a></li>
+                        <li>Algorytm do zadania SPOJ - <a href="download/Dodawanie.cpp">JSUMDUZE</a></li>
+                        <li>Algorytm do zadania SPOJ - <a href="download/Pierscionek.cpp">JPIERSC</a></li>
+                        <li>Algorytm do zadania SPOJ - <a href="download/Pojemnosc_dysku.cpp">JDYSK</a></li>
+                        <li>Algorytm do zadania SPOJ - <a href="download/Lamacz_gg.cpp">JGGHACK</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="clear:both"></div>
+        </div>
+    </div>
+</div>
+<div class="stopka">
+    <img src="img/stopka_logo.jpg">
+    <span>
+        Szablon strony z PSDTUTS i NETTUTS - szkolenia od Collis
+        Zobacz <a href="http://psdtuts.com">Photoshop Tutorial</a>
+        Zobacz <a href="http://nettuts.com">Web Tutorial</a>
+    </span>
+</div>
+</body>
+</html>
