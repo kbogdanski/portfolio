@@ -2,15 +2,17 @@
 
 Strona w HTML na zaliczenie PREWORK w CodersLab - warsztat 0 przed rozpoczęciem kursu<br>
 Strona:<br>
-<li>
-<ul> Zawiera stronę główną zawierającą krótki opis waszej osoby,</ul>
-<ul> Stronę portfolio zawierającą miejsce na wasze projekty,</ul>
-<ul> Stronę z waszym CV (zawierającym edukację, umiejętności, etc.)</ul>
-<ul> Stronę z danymi kontaktowymi.</ul>
-</li>
+<ul>
+<li>Zawiera stronę główną zawierającą krótki opis waszej osoby,</li>
+<li>Stronę portfolio zawierającą miejsce na wasze projekty,</li>
+<li>Stronę z waszym CV (zawierającym edukację, umiejętności, etc.)</li>
+<li>Stronę z danymi kontaktowymi.</li>
+</ul>
 <br><br>
 
 Technologia:<br>
-<ul> HTML</ul>
-<ul> CSS</ul>
-<ul> JavaScript</ul>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
