@@ -8,7 +8,7 @@ Strona:<br>
 <li>Stronę z waszym CV (zawierającym edukację, umiejętności, etc.)</li>
 <li>Stronę z danymi kontaktowymi.</li>
 </ul>
-<br><br>
+<br>
 
 Technologia:<br>
 <ul>
